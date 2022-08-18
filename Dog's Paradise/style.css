@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+nav {
+    background: linear-gradient(to right top, rgb(209, 197, 197), rgb(2, 204, 255));
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navigation .logo h1{
+    font: 400;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 20px;
+    color: darkslategrey;
+}
+
+.navigation .logo span {
+    color: blanchedalmond;
+}
+
+.nav-bar .list li {
+    display: inline ;
+    text-decoration: none;
+}
+
+.nav-bar .list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 10px;
+    color: blanchedalmond;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-bar .list li a:hover {
+    color: black;
+    transition: 0.4s ease;
+}
+
+section {
+    background: url(img/backgroud.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section .us .head {
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-section .us .head h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main-section .us .head span {
+    color: rgb(2, 204, 255);
+}
+
+.main-section .us .head::before {
+    content: "";
+    position: absolute;
+    bottom: 410px;
+    left: 50%;
+    width: 150px;
+    height: 3px;
+    background: black;
+    transform: translateX(-51%);
+}
+
+.main-section .us .head::after {
+    content: "";
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    width: 150px;
+    height: 3px;
+    background: black;
+    transform: translateX(-51%);
+}
+
+.main-section .us .head h4 {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.main-section .btn a {
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    color: blanchedalmond;
+    background: rgb(2, 204, 255);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main-section .btn a:hover {
+    color: rgb(2, 204, 255);
+    background: black;
+    transition: all 0.4s ease;
+}
